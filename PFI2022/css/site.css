@@ -1,0 +1,215 @@
+body {
+    background-image: linear-gradient(rgb(24, 24, 24), rgb(83, 83, 83));
+}
+
+.main {
+    margin: auto;
+    max-width: 1400px;
+    background-image: linear-gradient(rgb(165, 45, 15), rgb(189, 46, 3), rgb(156, 33, 3), rgb(177, 44, 3));
+    
+}
+
+.content h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 2em ;
+    color: #000000;
+    
+}
+
+.siteIcon {
+    background-image: URL('../images/faviconBig.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.content {
+    border: 5px solid #000000;
+    padding: 45px;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+    color:#b9b9b9;
+}
+
+.content p {
+    text-align: justify;
+}
+
+
+
+.titreN64 {
+    width: 100%;
+    max-width: 1250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.imageN64 {
+    width: 100%;
+    max-width: 1300px;
+    border: 5px solid #000000;
+}
+
+
+
+.titreMelee{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.imageMelee {
+    width: 100%;
+    max-width: 1300px;
+    border: 5px solid #000000;
+}
+
+
+
+.titreBrawl{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.videoBrawl{
+    position: relative;
+    padding-bottom: 56.20%;
+    height: 0;
+    border: 5px solid #000000;
+}
+
+.videoBrawl iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.titre3DS{
+    width: 100%;
+    max-width: 1250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.image3ds{
+    width: 100%;
+    max-width: 1300px;
+    border: 5px solid #000000;
+}
+
+
+
+.titreWiiU{
+    width: 100%;
+    max-width: 1250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.imageWiiU{
+    width: 100%;
+    max-width: 1300px;
+    border: 5px solid #000000;
+}
+
+
+
+.titreUltimate{
+    width: 100%;
+    max-width: 1250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.imageUltimate{
+    width: 100%;
+    max-width: 1300px;
+    border: 5px solid #000000;
+}
+
+.avatar {
+    border-radius: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+    max-width: 300px;
+    margin-top: 100px;
+}
+
+.avatar_title {
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 1000px;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.3em ;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.avatar_title a {
+    text-decoration: none;
+    color:#5e0000;
+}
+
+.avatar_title a:hover {
+    border-radius: 20px;
+    color: rgb(126, 0, 0);
+    background-color: rgb(121, 0, 0);
+    
+}
+
+.avatar_title a:active {
+    color: rgb(180, 33, 33);
+}
+
+.avatar_title .selected {
+    background-color: #530000;
+}
+
+
+
+.SourceGitHub {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 100px;
+}
+
+
+
+
+@media screen and (max-width:1350px) {
+    .siteIcon {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .content {
+        text-align: center;
+        font-size: 1.4em;
+
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+    .avatar_title {
+        padding-left: 300px;
+    }
+
+}

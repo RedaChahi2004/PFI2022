@@ -1,0 +1,29 @@
+.eastermain {
+    max-width: 1000px;
+    height: 1150px;
+    margin: auto;
+    background-color: rgb(148, 101, 79);
+}
+
+.easteregg {
+    padding-top: 100px;
+    margin: auto;
+    font-family: 'Rubik 80s Fade', cursive;
+    max-width: 800px;
+    min-width: 480px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .easteregg {
+        text-align: center;
+        font-size: 0.5em;
+        padding: 0px;
+        padding-top: 40px;  
+    }
+
+    .eastermain {
+        max-width: 600px;
+    }
+
+}
